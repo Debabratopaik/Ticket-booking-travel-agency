@@ -1,0 +1,597 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket booking travel agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="Tailwin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+
+    <div class="w-full h-[600px] bg-no-repeat justify-center bg-cover bg-center "
+        style="background-image: url('./imgess/bg4.jpg');">
+
+        <section class=" md:px-5 w-full font-bold"
+            style="background-image: url('/assets/pexels-karolina-grabowska-5650043-75ba13f8.jpg'); height:600px; background-position:center; background-repeat: no-repeat; background-size: cover;">
+
+            <nav>
+                <button id="btn" class=" p-4 text-white md:hidden float-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+
+                <ul id="show"
+                    class=" md:flex justify-end gap-10 items-center  text-[20px] text-white p-7 md:p-10 hidden ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="hidden md:block" href="#">?</a></li>
+                    <li><a class="text-[#F31559] font-Barlow" href="#">Register</a></li>
+                    <li><a class="text-[#F31559] font-Barlow" href="#">Sign In</a></li>
+                </ul>
+            </nav>
+            <div class=" text-center md:text-left px-3 md:px-0 md:pl-20">
+                <h3 class="font-Barlow text-[24px] md:text-[44px] text-white  pt-10">A Lifetime of Discounts? It's Genius.</h3>
+                <p class="text-[12px] md:text-[16px]  text-white">Get rewarded for your travels – unlock
+                    instant
+                    savings of 10% or more with a free Geairinfo.com account</p>
+                <button
+                    class=" px-3 py-3 md:px-4 md:py-3 rounded-md mt-5 md:mt-10 font-bold  md:text-[18px] bg-[#F31559] text-white">Sign
+                    in / Register</button>
+            </div>
+        </section>
+
+
+
+
+    </div>
+
+    <section>
+        <div class="bg-white  md:mx-20 h-[300px] mb-10 shadow-xl rounded-md -mt-24 font-bold ">
+            <div class="grid grid-cols-4 shadow-sm">
+                <div class="text-center text-black">
+                    <h2 class="uppercase mt-2 md:mt-0 p-2 font-Barlow text-[12px] md:text-[15px]">shop BOOKing</h2>
+                </div>
+                <div class=" bg-amber-400 text-center">
+                    <h2 class="uppercase mt-2 md:mt-0 p-2 font-Barlow text-[12px] md:text-[15px]">Flight status</h2>
+                </div>
+                <div class="  bg-amber-400  text-center">
+                    <h2 class="uppercase mt-2 md:mt-0 p-2 font-Barlow text-[12px] md:text-[15px]">check-in</h2>
+                </div>
+                <div class="  bg-amber-400  text-center rounded-tr-md">
+                    <h2 class="uppercase mt-2 md:mt-0 p-2 font-Barlow text-[12px] md:text-[15px]">my trips</h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-4">
+                <div class="text-center mt-5 md:mt-10 text-[#000000] text-[14px]">
+                    <p class=" ml-4 md:ml-16">Flights <span class=" md:ml-8">Geair Stopover</span></p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-5 text-center mt-10 bg-[#F5E8E4] p-3 mx-5 md:mx-14 rounded-sm">
+                <div class=" border-r-2 border-[#9DB2BF] font-Barlow text-[#000000] text-[14px]">Quick</div>
+                <div class=" border-r-2 border-[#9DB2BF] font-Barlow text-[#000000] text-[14px]"> Dress</div>
+                <div class=" border-r-2 border-[#9DB2BF] font-Barlow text-[#000000] text-[14px]"> daunting</div>
+                <div class=" border-r-2 border-[#9DB2BF] font-Barlow text-[#000000] text-[14px]">Quick</div>
+                <div class=" border-r-2 font-Barlow text-[#000000]  text-[14px]">Quick</div>
+            </div>
+
+            <div class=" md:mx-14 flex justify-end items-center mt-5 md:mt-10 gap-5 md:gap-10">
+                <p class=" text-[12px] md:text-[16px] font-Barlow text-[#000000] ">+ Add Promo code</p>
+                <button
+                    class=" mr-5 md:mr-0 text-[12px] md:text-[16px] bg-[#000000] px-3 py-2 text-white rounded-sm  font-Barlow rounded-xl">Show
+                    Flights</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section
+        class="flex justify-center font-semibold m-20 md:space-x-12 sm:space-x-4 sm:text-sm grid-cols-3 mx-5 md:mx-20">
+        <div class="md:h-36 sm:h-40 w-[300px]  shadow-xl text-center rounded-xl ">
+            <h1 class="font-bold text-xl m-4">International Flight</h1>
+            <h1>Call +1 555 666 888 for booking assistance</h1>
+        </div>
+
+        <div class="md:h-36 sm:h-40 w-[300px] shadow-xl text-center rounded-xl">
+            <h1 class="font-bold text-xl m-4">International Flight</h1>
+            <h1>Call +1 555 666 888 for booking assistance</h1>
+        </div>
+        <div class="md:h-36 sm:h-40 w-[300px] shadow-xl text-center rounded-xl">
+            <h1 class="font-bold text-xl m-4">Check Refund</h1>
+            <h1>Call +1 555 666 888 for booking assistance</h1>
+        </div>
+    </section>
+
+    <section class="flex md:space-x-[650px] sm:space-x-10  mt-10 justify-center">
+        <div>
+            <h1>Offer Deals</h1>
+            <h1 class="font-bold text-2xl">Flight Offer Deals</h1>
+        </div>
+
+        <div>
+            <h1 class="m-7 text-red-600">Best Price Guarantee</h1>
+        </div>
+    </section>
+
+
+    <section class="">
+        <div class="md:flex sm:flex-auto justify-center m-10 space-x-5 ">
+            <div class="max-w-sm  bg-white border border-gray-200 rounded-lg shadow ml-5">
+                <a href="#">
+                    <img class="rounded-t-lg h-[565px]" src="./imgess/spencer-davis-MVW_MUwusDs-unsplash.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Dhaka to Dubai</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-red-600  dark:text-gray-400">09 Jun 2023 - 16 Jun 2023</p>
+                    <h1 class="text-red-600">Economy from</h1>
+                    <h1 class="font-bold text-red-600">$ 980</h1>
+                </div>
+            </div>
+            <div class="">
+                <div class="flex">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[200px] w-[500px]" src="./imgess/ari-he-idIUCsynuS4-unsplash.jpg"
+                                alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New
+                                    York to California</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-red-600 dark:text-gray-400">09 Jun 2022 - 16 Jun 2022</p>
+                            <h1 class="text-red-600">Economy from</h1>
+                            <h1 class="font-bold text-red-600">$ 290</h1>
+                        </div>
+                    </div>
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[200px] w-[500px]"
+                                src="./imgess/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Malaga
+                                    to Finland</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-red-600  dark:text-gray-400">09 Jun 2022 - 16 Jun 2022</p>
+                            <h1 class="text-red-600">Economy from</h1>
+                            <h1 class="font-bold text-red-600">$ 792</h1>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="flex">
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[200px] w-[500px]"
+                                src="./imgess/julia-solonina-oRjGmKZLNHk-unsplash.jpg" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Dubai
+                                    to Maldives</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-red-600  dark:text-gray-400">09 Jun 2022 - 16 Jun 2022</p>
+                            <h1 class="text-red-600">Economy from</h1>
+                            <h1 class="font-bold text-red-600">$ 980</h1>
+                        </div>
+                    </div>
+                    <div
+                        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <a href="#">
+                            <img class="rounded-t-lg h-[200px] w-[500px]"
+                                src="./imgess/ivana-cajina-e6f8IaRQY7M-unsplash.jpg" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Dubai
+                                    to New York</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-red-600  dark:text-gray-400">09 Jun 2022 - 16 Jun 2022</p>
+                            <h1 class="text-red-600">Economy from</h1>
+                            <h1 class="font-bold text-red-600">$ 350</h1>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="h-[400px] bg-cover bg-center" style="background-image: url(./imgess/bg3.jpg); ">
+        <div class="ml-10">
+            <button class="font-bold bg-orange-200 text-black w-36 rounded-xl h-10 m-10 -ml-1">Offer Deals</button>
+            <h1 class="text-4xl font-bold text-white">Your Great Destination</h1>
+            <h1 class="font-semibold text-xl text-white">Get rewarded for your travels – unlock instant savings of 10%
+                or more with a free</h1>
+            <div class="flex space-x-14">
+                <div class="w-[220px] bg-white text-center font-bold rounded-lg">
+                    <h1>0+</h1>
+                    <h1>Happy customers</h1>
+                </div>
+                <div class="w-[220px] bg-white text-center font-bold rounded-lg">
+                    <h1>0%</h1>
+                    <h1>Client Setisfied</h1>
+                </div>
+            </div>
+            <div class="flex space-x-7 m-6">
+                <div class="font-bold text-xl -ml-6 text-white">Discover the latest offers & news and start planning
+                </div>
+                <button class="font-bold bg-orange-400 text-white w-40  rounded-xl h-[45px]">CONTACT US</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="text-center m-9">
+        <h1 class="font-bold text-xl">Flynext Package</h1>
+        <h1 class="font-bold text-4xl">Your Great Destination</h1>
+        <div class="flex space-x-10 justify-center m-6 ">
+            <button class="font-bold bg-orange-400  w-40  text-black rounded-xl h-10"> Flights</button>
+            <button class="font-bold bg-orange-100  w-40  text-black rounded-xl h-10">Car Rentals</button>
+            <button class="font-bold bg-orange-100 w-40 text-black rounded-xl h-10">Taxis</button>
+
+        </div>
+    </section>
+
+    <section class="font-bold">
+        <div>
+            <div class="md:flex space-x-4 justify-center m-8">
+                <div class="">
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_CQAYEMIDOJ.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-regular fa-paper-plane text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1">Economy from</h1>
+                            <h1>$195</h1>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_DAKCCT4BBX.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-solid fa-plane text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1>Economy from</h1>
+                        <h1>$195</h1>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_DDTJ32T2KI.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-solid fa-person text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1>Economy from</h1>
+                        <h1>$195</h1>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_EZZSLOHXVG.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-solid fa-poo-storm text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1>Economy from</h1>
+                        <h1>$195</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="md:flex sm:flex-auto space-x-4 justify-center m-8">
+                <div class="">
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_IHJ8RHTTN9.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-solid fa-bolt text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1>Economy from</h1>
+                        <h1>$195</h1>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_T00NNZSX1E.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-solid fa-bicycle text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1>Economy from</h1>
+                        <h1>$195</h1>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_TG03ANCZ7G.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-solid fa-briefcase text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1>Economy from</h1>
+                        <h1>$195</h1>
+                    </div>
+                </div>
+                <div class="shadow-sm">
+                    <div class="text-center">
+                        <img src="./imgess/New folder/StockSnap_ZD85TDFAYJ.jpg" class=" h-[200px] w-[400px]" alt="">
+                        <h1 class="text-red-600">09 Jun 2022 - 16 Jun 2022</h1>
+                        <h1>Dubai (DXB)</h1>
+                        <br>
+                        <h1>New York (USA)</h1>
+                        <i class="fa-solid fa-baht-sign text-4xl"></i>
+                        <hr>
+                    </div>
+                    <div class="text-red-600">
+                        <h1>Economy from</h1>
+                        <h1>$195</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class=" mt-5 md:mt-10 bg-black h-[100px] md:h-[200px] ">
+        <div class=" grid grid-cols-6 mx-5 md:mx-20 text-center">
+            <div>
+                <i class="fa-brands fa-linkedin  text-white text-[35px] md:text-[50px] mt-10 md:mt-20"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook  text-white text-[35px] md:text-[50px] mt-10 md:mt-20"></i>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-twitter  text-white text-[35px] md:text-[50px] mt-10 md:mt-20"></i>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram  text-white text-[35px] md:text-[50px] mt-10 md:mt-20"></i>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-github  text-white text-[35px] md:text-[50px] mt-10 md:mt-20"></i>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles text-white text-[35px] md:text-[50px] mt-10 md:mt-20"></i>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="font-bold ml-10 text-center m-8">
+            <h1>Why Air geair</h1>
+            <h1 class="text-4xl ">Our Great Flight Options</h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="md:flex sm:flex-auto justify-center md:space-x-10 sm:space-x-4 m-8  grid-cols-3">
+
+            <div class="shadow-2xl rounded-xl md:h-[300px] sm:h-[400px]  w-[400px]">
+                <i class="fa-solid fa-person-walking-luggage text-8xl ml-4 text-orange-600"></i>
+                <div class="ml-4">
+                    <h1>Service 01</h1>
+                    <h1 class="text-4xl">Pre-Book Your Baggage</h1>
+                    <h1>Pre-book your baggage</h1>
+                    <h1>Allowance now and save up</h1>
+                    <h1>90% of baggage charges</h1>
+                </div>
+            </div>
+
+            <div class="shadow-2xl rounded-xl md:h-[300px] sm:h-[400px]  w-[400px]">
+                <i class="fa-solid fa-cart-flatbed-suitcase text-8xl ml-4  text-orange-600"></i>
+                <div class="ml-4">
+                    <h1>Service 02</h1>
+                    <h1 class="text-4xl">Reserve preferred seat!</h1>
+                    <h1>What will it be, window or aisle?</h1>
+                    <h1>Select your preferred seat prior</h1>
+                    <h1>Reserved for you.</h1>
+                </div>
+            </div>
+
+            <div class="shadow-2xl rounded-xl md:h-[300px] sm:h-[400px]  w-[400px]">
+                <i class="fa-solid fa-globe text-8xl  text-orange-600 ml-4"></i>
+                <div class="ml-4">
+                    <h1>Service 03</h1>
+                    <h1 class="text-4xl">Enjoy stress-free travel</h1>
+                    <h1>Covered for flight modification</h1>
+                    <h1>Cancellation, accident & medical</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="font-bold text-center">
+            <h1>our News Feeds</h1>
+            <h1 class="text-4xl">Latest News Update</h1>
+        </div>
+    </section>
+
+
+    <section class="">
+        <div class=" justify-center  m-8">
+            <div class="md:flex sm:flex-auto space-x-10 justify-center">
+                <div style="background-image: url(./imgess/ivana-cajina-e6f8IaRQY7M-unsplash.jpg);"
+                    class="h-[600px] w-[450px] bg-cover bg-current">
+                    <div class="font-poppins md:text-[25px] sm:text[15] font-bold pl-5 pt-[300px] text-white">
+                        <h1 class="">Emely Watson</h1>
+                        <h1>February 19, 2022</h1>
+                    </div>
+                    <h1 class=" sm:text-[20px] md:text-[32px] font-bold pl-5 text-[#F31559] ">Depending on your
+                        departure point and
+                        destination flights</h1>
+                </div>
+
+                <div class="font-bold">
+                    <div class="flex">
+                        <div>
+                            <img src="./imgess/ari-he-idIUCsynuS4-unsplash.jpg" class="h-[200px] w-[250px]"
+                                alt="">
+                        </div>
+                        <div>
+                            <div class="flex space-x-6 m-10">
+                                <h1 class="">Emely Watson</h1>
+                                <h1>February 19, 2022</h1>
+                            </div>
+                            <h1 class="ml-10 text-xl">Happy International Country Flight Attendant Day</h1>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex">
+                        <div>
+                            <img src="./imgess/New folder/StockSnap_TG03ANCZ7G.jpg" class="h-[200px] w-[250px]"
+                                alt="">
+                        </div>
+                        <div>
+                            <div class="flex space-x-6 m-10">
+                                <h1 class="">Emely Watson</h1>
+                                <h1>February 19, 2023</h1>
+                            </div>
+                            <h1 class="ml-10 text-xl">Happy International Country Flight Attendant Day</h1>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex">
+                        <div>
+                            <img src="./imgess/New folder/StockSnap_T00NNZSX1E.jpg" class="h-[200px] w-[250px]"
+                                alt="">
+                        </div>
+                        <div>
+                            <div class="flex space-x-6 m-10">
+                                <h1 class="">Emely Watson</h1>
+                                <h1>February 19, 2024</h1>
+                            </div>
+                            <h1 class="ml-10 text-xl">Happy International Country Flight Attendant Day</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="md:flex sm:flex-auto bg-slate-500 text-white justify-center space-x-48">
+        <div class="flex">
+            <div>
+                <img class="w-44 h-10 m-2" src="./imgess/ari-he-idIUCsynuS4-unsplash.jpg" alt="">
+
+            </div>
+            <div>
+                <h1>Online to make your </h1>
+                <h1>journey even more</h1>
+                <h1>memorable access or meet</h1>
+            </div>
+        </div>
+
+        <div>
+            <h1>Explore</h1>
+            <div class="flex space-x-8">
+                <h1 class="">About us</h1>
+                <h1>Travel alerts</h1>
+            </div>
+            <div class="flex space-x-8">
+                <h1>Awards</h1>
+                <h1>Qatarisation</h1>
+            </div>
+            <div class="flex  space-x-8">
+                <h1>Careers</h1>
+                <h1>Beyond</h1>
+            </div>
+            <div class="flex  space-x-8">
+                <h1>Careers</h1>
+                <h1>Beyond</h1>
+            </div>
+            <div class="flex  space-x-8">
+                <h1>Press release</h1>
+                <h1>Airways Cargo</h1>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="font-bold">Privacy</h1>
+            <h1>Airline fees</h1>
+            <h1>Airline guides</h1>
+            <h1>Low fare tips</h1>
+            <h1>Flights</h1>
+        </div>
+
+
+        <div>
+            <h1 class="font-bold">Contacts</h1>
+            <h1>PO Box W75 Street lan West new queens</h1>
+            <h1>+1 246 333 - 0079</h1>
+            <h1>geair@company.com</h1>
+            <div class="flex rounded-md mt-2 ">
+                <input class=" w-[50px] md:w-full px-1  md:px-3  md:py-2 " type="text" placeholder="Email:">
+                <button class="  px-1  md:px-3 py-1 md:py-2 w-40 bg-[#F31559]">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="md:flex sm:flex-auto space-x-[800px] justify-center bg-slate-700">
+        <div class="">
+            <h1 class="-ml-6 text-center">Copyright © 2022.All Rights Reserved By</h1>
+        </div>
+        <div><img src="./imgess/logo.png" class="h-14 w-40 -ml-2" alt=""></div>
+    </section>
+
+</body>
+
+</html>
